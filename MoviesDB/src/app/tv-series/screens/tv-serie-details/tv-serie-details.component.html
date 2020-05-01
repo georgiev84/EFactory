@@ -1,0 +1,14 @@
+<div *ngIf="tvShow">
+    <div class="header" [style.background-image]="'url(https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/'+tvShow.backdrop_path+')'">
+        <div class="custom-background">
+            <div class="container">
+                <div class="d-flex">
+                    <img src="https://image.tmdb.org/t/p/w220_and_h330_face/{{tvShow.poster_path}}" />
+                    <div class="d-flex flex-column tv-show-details">
+                        <h1>{{tvShow.name}} ({{tvShow.first_air_date | date: 'y'}})</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

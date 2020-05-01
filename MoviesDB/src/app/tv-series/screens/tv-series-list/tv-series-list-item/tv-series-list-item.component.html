@@ -1,0 +1,10 @@
+<div class="card" (click)="redirect()">
+    <img class="card-img-top" src="https://image.tmdb.org/t/p/w220_and_h330_face/{{tvShow.poster_path}}" alt="{{tvShow.name}}"
+    appImgFallback>
+  <button class="btn btn-success btn-add-to-watchlist" (click)="addToFavourites(); $event.stopPropagation()"><i class="fa fa-heart"></i></button>
+  <button class="btn btn-warning btn-add-to-favourites" (click)="addToWatchlist(); $event.stopPropagation()"><i class="fa fa-sticky-note"></i></button>
+    <div class="card-body">
+      <h5 class="card-title">{{tvShow.name}}</h5>
+      <p class="card-text">{{tvShow.first_air_date}}</p>
+    </div>
+</div>

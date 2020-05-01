@@ -1,0 +1,38 @@
+.people-details{
+    padding: 20px;
+    color: #fff;
+
+}
+
+.biography{
+    padding: 20px;
+}
+
+.profile-image{
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.known-for-list{
+  display: flex;
+  overflow-x: scroll;
+  >.known-for-item{
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-size:13px;
+    > img{
+      height: 225px;
+      border-radius: 8px;
+    }
+    > media-title{
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+    }
+    &:last-of-type{
+      margin-right:0;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="/">MMDB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/movies" routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">Movies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/tv-shows" routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">TV Shows</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/people" routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">People</a>
+      </li>
+    </ul>
+  </div>
+  <ul class="navbar-nav mr-0">
+    <li class="nav-item mr-3">
+      <a class="nav-link btn btn- btn-success" *ngIf="user">
+        {{user.email}}
+      </a>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="btn btn-default btn-secondary"
+      popover="You are now logged out"
+      popoverTitle="Logout"
+      placement="bottom" (click)="logOut()">
+      Logout
+      </button>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>

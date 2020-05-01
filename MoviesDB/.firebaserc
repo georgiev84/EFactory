@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "mmdb-52410": {
+      "hosting": {
+        "workshop": [
+          "mmdb-52410"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    >.card-title{
+      font-weight: bold;
+    }
+}
+.card{
+  cursor: pointer;
+  .btn-add-to-watchlist{
+    position: absolute;
+    right:20px;
+    top: 20px;
+  }
+  .btn-add-to-favourites{
+    position: absolute;
+    right:80px;
+    top: 20px;
+  }
+}

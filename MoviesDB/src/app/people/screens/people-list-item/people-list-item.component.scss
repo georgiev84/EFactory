@@ -1,0 +1,19 @@
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img{
+    cursor: pointer;
+}
+
+
+
+.cut-text {
+  font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
