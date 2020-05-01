@@ -1,0 +1,24 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using DataLibrary.Data
+@{
+    ViewData["Title"] = "Home Page";
+}
+@inject SignInManager<WebUser> SignInManager
+@inject UserManager<WebUser> UserManager
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="text-center">
+        <h3 class="display-4">Welcome Back @UserManager.GetUserName(User)</h3>
+        <p>Furniture factory ERP</p>
+        <img src="https://furnish.bg/items/4907_00_t.jpg" />
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">Warehouse and Sales</h1>
+        <p>Furniture factory ERP</p>
+        <img src="https://furnish.bg/items/4907_00_t.jpg" />
+    </div>
+}
+

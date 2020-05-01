@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200413175147_UpdateConfig.cs" />
+    <Compile Remove="Migrations\20200413175147_UpdateConfig.Designer.cs" />
+    <Compile Remove="Migrations\20200413175408_UpdateConfig.cs" />
+    <Compile Remove="Migrations\20200413175408_UpdateConfig.Designer.cs" />
+    <Compile Remove="Migrations\20200413175831_UpdateConfig1.cs" />
+    <Compile Remove="Migrations\20200413175831_UpdateConfig1.Designer.cs" />
+    <Compile Remove="Migrations\20200413175951_UpdateConfig1.cs" />
+    <Compile Remove="Migrations\20200413175951_UpdateConfig1.Designer.cs" />
+    <Compile Remove="Migrations\20200413180528_UpdateConfig1.cs" />
+    <Compile Remove="Migrations\20200413180528_UpdateConfig1.Designer.cs" />
+    <Compile Remove="Migrations\20200413181811_UpdateConfig.cs" />
+    <Compile Remove="Migrations\20200413181811_UpdateConfig.Designer.cs" />
+    <Compile Remove="Migrations\20200413202952_test-1.cs" />
+    <Compile Remove="Migrations\20200413202952_test-1.Designer.cs" />
+    <Compile Remove="Migrations\20200413203713_Configure.cs" />
+    <Compile Remove="Migrations\20200413203713_Configure.Designer.cs" />
+    <Compile Remove="Migrations\20200413203855_Configure.cs" />
+    <Compile Remove="Migrations\20200413203855_Configure.Designer.cs" />
+    <Compile Remove="Migrations\20200413214415_Configure-View.cs" />
+    <Compile Remove="Migrations\20200413214415_Configure-View.Designer.cs" />
+    <Compile Remove="Migrations\20200413214510_Configure-Multi.cs" />
+    <Compile Remove="Migrations\20200413214510_Configure-Multi.Designer.cs" />
+    <Compile Remove="Migrations\20200413214526_Configure-View.cs" />
+    <Compile Remove="Migrations\20200413214526_Configure-View.Designer.cs" />
+    <Compile Remove="Migrations\20200413214658_Configure-1.cs" />
+    <Compile Remove="Migrations\20200413214658_Configure-1.Designer.cs" />
+    <Compile Remove="Migrations\20200413220420_Configure-View.cs" />
+    <Compile Remove="Migrations\20200413220420_Configure-View.Designer.cs" />
+    <Compile Remove="Migrations\20200413220624_Configure-View-Next.cs" />
+    <Compile Remove="Migrations\20200413220624_Configure-View-Next.Designer.cs" />
+    <Compile Remove="Migrations\20200413221127_Configure-View.cs" />
+    <Compile Remove="Migrations\20200413221127_Configure-View.Designer.cs" />
+    <Compile Remove="Migrations\20200414183827_CustomStoredProcedure.cs" />
+    <Compile Remove="Migrations\20200414183827_CustomStoredProcedure.Designer.cs" />
+    <Compile Remove="Migrations\20200414183838_CustomStoredProcedure-1.cs" />
+    <Compile Remove="Migrations\20200414183838_CustomStoredProcedure-1.Designer.cs" />
+    <Compile Remove="Migrations\20200414193124_final.cs" />
+    <Compile Remove="Migrations\20200414193124_final.Designer.cs" />
+    <Compile Remove="Migrations\20200414200400_final-1.cs" />
+    <Compile Remove="Migrations\20200414200400_final-1.Designer.cs" />
+    <Compile Remove="Migrations\20200421131009_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20200421131009_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200421131600_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20200421131600_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200421132055_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20200421132055_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200421132231_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20200421132231_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200421132653_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20200421132653_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200421132747_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20200421132747_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200421153843_CustomUserData.cs" />
+    <Compile Remove="Migrations\20200421153843_CustomUserData.Designer.cs" />
+    <Compile Remove="Migrations\20200421153934_CustomUserData.cs" />
+    <Compile Remove="Migrations\20200421153934_CustomUserData.Designer.cs" />
+    <Compile Remove="Migrations\20200421162112_Initial.cs" />
+    <Compile Remove="Migrations\20200421162112_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200421162657_Initial.cs" />
+    <Compile Remove="Migrations\20200421162657_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200421165219_CustomUserData.cs" />
+    <Compile Remove="Migrations\20200421165219_CustomUserData.Designer.cs" />
+    <Compile Remove="Migrations\20200421171227_CustomUserData.cs" />
+    <Compile Remove="Migrations\20200421171227_CustomUserData.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+  </ItemGroup>
+
+</Project>
